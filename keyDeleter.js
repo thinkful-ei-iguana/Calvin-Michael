@@ -1,11 +1,11 @@
 'use strict';
 
 const sampleObj = {
-    foo: 'foo',
-    bar: 'bar',
-    bizz: 'bizz',
-    bang: 'bang',
-  };
+  foo: 'foo',
+  bar: 'bar',
+  bizz: 'bizz',
+  bang: 'bang',
+};
   
 // --The old way--
 
@@ -19,8 +19,8 @@ const sampleObj = {
 const {foo, bar, bizz, bang} = sampleObj;
 
 const newObj = {
-    bizz,
-    bang,
+  bizz,
+  bang,
 };
 
 console.log(newObj);
