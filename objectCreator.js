@@ -12,4 +12,17 @@ function createObject(){
     };
 }
 
+
+function secondObject(){
+    return{
+        foo: 'foo',
+        bar: 'bar',
+        bizz: 'bizz',
+        bang: 'bang',
+    };
+}
+
+let newProp = Object.assign({},createObject(),secondObject());
 console.log(createObject());
+console.log(secondObject());
+console.log(newProp);
